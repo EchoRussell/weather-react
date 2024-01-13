@@ -1,0 +1,27 @@
+.form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form input {
+  background-color: #ffecf2;
+  border: #ffd9e5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form button {
+  background-color: #ffd9e5;
+  border: #ffd9e5;
+  height: 30px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.weather-info ul {
+  text-align: center;
+  color: #ff028d;
+  list-style: none;
+}
