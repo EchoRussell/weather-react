@@ -56,6 +56,12 @@ export default function Environment() {
             <li> Wind: {weather.wind} km/h</li>
             <img src={weather.icon} alt={weather.description} />{" "}
           </ul>
+          <a
+            className="link"
+            href="https://github.com/EchoRussell/weather-react"
+          >
+            Click here for Github repository
+          </a>
         </div>
       </div>
     );

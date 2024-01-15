@@ -25,3 +25,11 @@
   color: #ff028d;
   list-style: none;
 }
+
+.link {
+  text-decoration: none;
+  color: #ffd9e5;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
