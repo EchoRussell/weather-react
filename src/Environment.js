@@ -45,6 +45,7 @@ export default function Environment() {
     return (
       <div>
         {form}
+
         <div className="weather-info">
           <ul>
             <li>
@@ -56,16 +57,18 @@ export default function Environment() {
             <li> Wind: {weather.wind} km/h</li>
             <img src={weather.icon} alt={weather.description} />{" "}
           </ul>
-          <a
-            className="link"
-            href="https://github.com/EchoRussell/weather-react"
-          >
-            Click here for Github repository
-          </a>
         </div>
       </div>
     );
   } else {
-    return form;
+    return (
+      <div>
+        {form}
+        <a className="link" href="https://github.com/EchoRussell/weather-react">
+          Click here for Github repository
+        </a>
+        ;
+      </div>
+    );
   }
 }
